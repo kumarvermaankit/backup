@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+
+.wrapper{
+
+
+width: 500px;
+height:625px;
+padding: 50px;
+
+
+
+}
+
+
+
+
+   #inputelement3{
+
+
+    border-radius: 10px;
+   color:white;
+    background-color: darken($color: #000000, $amount: 0);
+   font-size: 20px;
+   }
+
+
+   #signinoption{
+   color: black;
+   display: inline-block;
+   }
+   #signinoption:hover{
+	text-shadow: 5px 10px 5px  #050505;
+	text-decoration: black;
+   }
+ 
+
+#inputelement3:hover{
+	background-color: #eebb4d;
+	box-shadow: 5px 10px #050505;
+}
+// #0093E9
+
+
+
+
+
+
+
+
+
+
+
+

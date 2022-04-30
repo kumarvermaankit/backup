@@ -1,0 +1,61 @@
+html{
+    width: auto;
+    height: auto;
+    font-family:  'Roboto Condensed', sans-serif;;
+}
+
+body{
+    background-color:#000000;
+}  
+
+.idiv{
+   
+    width:1500px;
+    height:800px;
+   margin:10px;
+   
+    
+}
+
+.txt{
+    background-color: #1a1a2e;
+    display:inline-block;
+    width:1200px;
+    height:500px;
+   margin:50px;
+   border-radius: 30px;
+    padding:10px;
+    font-size: 30px;
+    color:#ec0101;
+}
+
+.htxt{
+    background-color: #1a1a2e;
+    display:inline-block;
+    width:1200px;
+    height:50px;
+   margin: 50px;
+   padding:10px;
+   border-radius: 30px;
+    font-size:30px;
+    color:#ec0101;
+    
+}
+
+ .txt::placeholder{
+      position: absolute;
+  left: 20px;
+  top: 0px;
+  color:#515070;
+text-align: center;
+
+font-size: 70px;
+
+}
+.htxt::placeholder{
+    color:#515070;
+    opacity: 2px;
+
+   text-align: center;
+   font-size: 50px;
+}

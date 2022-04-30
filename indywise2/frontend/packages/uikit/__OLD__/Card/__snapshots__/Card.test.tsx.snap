@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Card should render correctly 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+  >
+    <h2>
+      Card Title
+    </h2>
+    <p>
+      3
+       Left
+    </p>
+  </div>
+  <div
+    className=""
+  >
+    Test
+  </div>
+</div>
+`;

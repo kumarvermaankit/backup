@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "category": "Information Technology",
+      "skill": "Machine Learning"
+    },
+    {
+      "category": "Information Technology",
+      "skill": "Data Science"
+    },
+    {
+      "category": "Information Technology",
+      "skill": "Data Analytics"
+    },
+    {
+      "category": "Youtube, Social Media, Digital Marketing",
+      "skill": "E learning"
+    }
+  ]
+}

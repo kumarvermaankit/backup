@@ -1,0 +1,112 @@
+html,#root{
+    background: #f0f0f0;
+}
+.orderbox{
+    border: 1px solid #687280;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #9ca3af;
+    border-radius: 8px;
+    width: 680px;
+    height: auto;
+    margin: 70px auto;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background: #f0f0f0;
+}
+.orderbox h1{
+    text-align: center;
+}
+.mapPickup{
+    width:320px;
+    height:40px;
+    margin: 30px 5px 10px 15px;
+    font-size: 20px;
+    border: 2px solid black;
+    background: snow;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 4px;
+}
+.mapPickup:hover,.manualPickup:hover{
+    color:#fff;
+    background: #1f2937;
+    border: 1px solid;
+}
+.manualPickup{
+    width:320px;
+    height:40px;
+    margin: 30px 10px 10px 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    background: snow;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 4px;
+}
+.mobile{
+    margin-left: 40px;
+    padding-left: 10px;
+    height:35px;
+    border:none;
+    width: 250px;
+}
+.landmark{
+    margin-right: 40px;
+    padding-left: 10px;
+    height:35px;
+    border:none;
+    width: 250px;
+    float: right;
+}
+.delivery{
+    width:600px;
+    height:40px;
+    margin: 20px 10px 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #fff;
+    color: #1f2937;
+    border: none;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.sending{
+    height: 40px;
+    width: 600px;
+    margin: 20px 10px 10px 40px;
+    border:none;
+    /* border:1.5px solid #1f2937; */
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.left{
+    margin: 20px 10px 10px 40px;
+    padding-left: 10px;
+    height:35px;
+    border:none;
+    width: 250px;
+}
+.right{
+    margin: 20px 40px 10px 10px;
+    padding-left: 10px;
+    height:35px;
+    border:none;
+    width: 250px;
+    float: right;
+}
+.placeOrder{
+        color: #fff;
+        width: 250px;
+        height: 42px;
+        border: none;
+        margin: 30px 215px 30px 215px;
+        border-radius: 3px;
+        font-size: 18px;
+        cursor: pointer;
+        background-color: #1f2937;
+}
+.placeOrder:hover {
+background-color: #374155;
+}

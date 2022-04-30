@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "mobile_number_verified": true,
+      "last_name": "Sharma",
+      "first_name": "Shikhar",
+      "is_active": true,
+      "ID": "1a52a27f-3394-4081-aaed-37c7c6fb390e",
+      "email": "shikhar.sharma@indywise.com",
+      "mobile_number": "8826640045",
+      "email_verified": true,
+      "id": "1a52a27f-3394-4081-aaed-37c7c6fb390e"
+    },
+    {
+      "mobile_number_verified": true,
+      "last_name": "Ankush",
+      "first_name": "Kumar",
+      "is_active": true,
+      "ID": "1a52a27f-3394-4081-aaed-37c7c6fb390e",
+      "email": "ankush.kumar@indywise.com",
+      "mobile_number": "8824440045",
+      "email_verified": false,
+      "id": "1a52a27f-3394-4081-aaed-37c7c6fb390e"
+    },
+    {
+      "mobile_number_verified": true,
+      "last_name": "Aman",
+      "first_name": "Verma",
+      "is_active": false,
+      "ID": "1a52a27f-3394-4081-aaed-37c7c6fb390e",
+      "email": "amanver77@gmal.com",
+      "mobile_number": "8812369645",
+      "email_verified": true,
+      "id": "1a52a27f-3394-4081-aaed-37c7c6fb390e"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services. ... Its online services include the iTunes Store, the iOS App Store and Mac App Store, Apple Music, and iCloud"
+    },
+    {
+      "id": "2",
+      "name": "Microsoft",
+      "description": "Microsoft Corporation, incorporated on September 22, 1993, is a technology company. The Company develops, licenses, and supports a range of software products, services and devices. The Company's segments include Productivity and Business Processes, Intelligent Cloud and More Personal Computing"
+    },
+    {
+      "id": "3",
+      "name": "Google",
+      "description": "Google was founded by Larry Page and Sergey Brin while they were students at Stanford University. The company was officially launched in September, 1998 in a friend's garage. ... The official mission statement of the company is to “organize the world's information and make it universally accessible and useful"
+    }
+  ]
+}

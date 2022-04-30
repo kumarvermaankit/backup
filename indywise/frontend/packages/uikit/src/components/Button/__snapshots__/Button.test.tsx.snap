@@ -1,0 +1,669 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Click fun 1`] = `
+<button
+  className=""
+  color="primary"
+  onClick={[Function]}
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <p
+      className=""
+      color="primary"
+      style={Object {}}
+    >
+      Button
+    </p>
+  </span>
+</button>
+`;
+
+exports[`Button Disable Primary 1`] = `
+<button
+  className=""
+  color="primary"
+  style={Object {}}
+>
+  <p
+    className=""
+    color="primary"
+    style={Object {}}
+  >
+    Button
+  </p>
+</button>
+`;
+
+exports[`Button Disable Secondary 1`] = `
+<button
+  className=""
+  color="secondary"
+  style={Object {}}
+>
+  <p
+    className=""
+    color="secondary"
+    style={Object {}}
+  >
+    Button
+  </p>
+</button>
+`;
+
+exports[`Button Disable Tertiary 1`] = `
+<button
+  className=""
+  color="tertiary"
+  style={Object {}}
+>
+  <p
+    className=""
+    color="tertiary"
+    style={Object {}}
+  >
+    Button
+  </p>
+</button>
+`;
+
+exports[`Button Font styled 1`] = `
+<button
+  className=""
+  color="primary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <p
+      className=""
+      color="primary"
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Robot",
+          "fontSize": "20px",
+          "lineHeight": "24px",
+        }
+      }
+    >
+      Button
+    </p>
+  </span>
+</button>
+`;
+
+exports[`Button Icon rotation 1`] = `
+<button
+  className=""
+  color="primary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <i
+      style={
+        Object {
+          "height": "24px",
+          "marginRight": "0.5em",
+        }
+      }
+    >
+      <span
+        className=""
+        color="#fff"
+        rotate={-90}
+        size="24px"
+        style={Object {}}
+      >
+        <svg
+          fill="none"
+          height="7"
+          viewBox="0 0 14 7"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M12.2312 0.381507C12.4387 0.199371 12.767 0.208218 12.9645 0.401268C13.1619 0.594319 13.1537 0.898467 12.9462 1.0806L7.37582 5.96865C7.24646 6.08216 7.0702 6.12149 6.90795 6.08829C6.80683 6.07429 6.70927 6.03257 6.62952 5.96273L1.0539 1.07986C0.84616 0.897934 0.837974 0.594114 1.03562 0.401261C1.23326 0.208409 1.56189 0.199555 1.76963 0.381484L7.00565 4.96694L12.2312 0.381507Z"
+            fill="#0C3559"
+            fillRule="evenodd"
+          />
+        </svg>
+      </span>
+    </i>
+    <p
+      className=""
+      color="primary"
+      style={Object {}}
+    >
+      Button
+    </p>
+  </span>
+</button>
+`;
+
+exports[`Button Loading Button 1`] = `
+<button
+  className=""
+  color="primary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <p
+      className=""
+      color="primary"
+      style={Object {}}
+    >
+      Button
+    </p>
+  </span>
+</button>
+`;
+
+exports[`Button No Type and Text 1`] = `
+<button
+  className=""
+  color="primary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <p
+      className=""
+      color="primary"
+      style={Object {}}
+    >
+      Button
+    </p>
+    <i
+      style={
+        Object {
+          "height": "24px",
+          "marginLeft": "0.5em",
+        }
+      }
+    >
+      <span
+        className=""
+        color="#262626"
+        size="24px"
+        style={Object {}}
+      >
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.7071 17.7071C12.3166 18.0976 11.6834 18.0976 11.2929 17.7071L4.92893 11.3431C4.53841 10.9526 4.53841 10.3195 4.92893 9.92893C5.31946 9.53841 5.95262 9.53841 6.34315 9.92893L12 15.5858L17.6569 9.92893C18.0474 9.53841 18.6805 9.53841 19.0711 9.92893C19.4616 10.3195 19.4616 10.9526 19.0711 11.3431L12.7071 17.7071ZM4 20C3.44772 20 3 19.5523 3 19C3 18.4477 3.44772 18 4 18L4 20ZM20 18C20.5523 18 21 18.4477 21 19C21 19.5523 20.5523 20 20 20V18ZM13 3V17H11V3H13ZM4 18L20 18V20L4 20L4 18Z"
+            fill="#262626"
+          />
+        </svg>
+      </span>
+    </i>
+  </span>
+</button>
+`;
+
+exports[`Button Primary 1`] = `
+<button
+  className=""
+  color="primary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <p
+      className=""
+      color="primary"
+      style={Object {}}
+    >
+      Button
+    </p>
+  </span>
+</button>
+`;
+
+exports[`Button Primary with Icon props left align 1`] = `
+<button
+  className=""
+  color="primary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <i
+      style={
+        Object {
+          "height": "24px",
+          "marginRight": "0.5em",
+        }
+      }
+    >
+      <span
+        className=""
+        color="#0C3559"
+        size="24px"
+        style={Object {}}
+      >
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.7071 17.7071C12.3166 18.0976 11.6834 18.0976 11.2929 17.7071L4.92893 11.3431C4.53841 10.9526 4.53841 10.3195 4.92893 9.92893C5.31946 9.53841 5.95262 9.53841 6.34315 9.92893L12 15.5858L17.6569 9.92893C18.0474 9.53841 18.6805 9.53841 19.0711 9.92893C19.4616 10.3195 19.4616 10.9526 19.0711 11.3431L12.7071 17.7071ZM4 20C3.44772 20 3 19.5523 3 19C3 18.4477 3.44772 18 4 18L4 20ZM20 18C20.5523 18 21 18.4477 21 19C21 19.5523 20.5523 20 20 20V18ZM13 3V17H11V3H13ZM4 18L20 18V20L4 20L4 18Z"
+            fill="#262626"
+          />
+        </svg>
+      </span>
+    </i>
+    <p
+      className=""
+      color="primary"
+      style={Object {}}
+    >
+      Button
+    </p>
+  </span>
+</button>
+`;
+
+exports[`Button Primary with Icon props right align 1`] = `
+<button
+  className=""
+  color="primary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <p
+      className=""
+      color="primary"
+      style={Object {}}
+    >
+      Button
+    </p>
+    <i
+      style={
+        Object {
+          "height": "24px",
+          "marginLeft": "0.5em",
+        }
+      }
+    >
+      <span
+        className=""
+        color="#0C3559"
+        size="24px"
+        style={Object {}}
+      >
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.7071 17.7071C12.3166 18.0976 11.6834 18.0976 11.2929 17.7071L4.92893 11.3431C4.53841 10.9526 4.53841 10.3195 4.92893 9.92893C5.31946 9.53841 5.95262 9.53841 6.34315 9.92893L12 15.5858L17.6569 9.92893C18.0474 9.53841 18.6805 9.53841 19.0711 9.92893C19.4616 10.3195 19.4616 10.9526 19.0711 11.3431L12.7071 17.7071ZM4 20C3.44772 20 3 19.5523 3 19C3 18.4477 3.44772 18 4 18L4 20ZM20 18C20.5523 18 21 18.4477 21 19C21 19.5523 20.5523 20 20 20V18ZM13 3V17H11V3H13ZM4 18L20 18V20L4 20L4 18Z"
+            fill="#262626"
+          />
+        </svg>
+      </span>
+    </i>
+  </span>
+</button>
+`;
+
+exports[`Button React Element icon 1`] = `
+<button
+  className=""
+  color="primary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <i
+      style={
+        Object {
+          "height": "24px",
+          "marginRight": "0.5em",
+        }
+      }
+    >
+      <div>
+        Hello
+      </div>
+    </i>
+    <p
+      className=""
+      color="primary"
+      style={Object {}}
+    >
+      Button
+    </p>
+  </span>
+</button>
+`;
+
+exports[`Button Secondary 1`] = `
+<button
+  className=""
+  color="secondary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <p
+      className=""
+      color="secondary"
+      style={Object {}}
+    >
+      Button
+    </p>
+  </span>
+</button>
+`;
+
+exports[`Button Secondary with Icon props left align 1`] = `
+<button
+  className=""
+  color="secondary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <i
+      style={
+        Object {
+          "height": "24px",
+          "marginRight": "0.5em",
+        }
+      }
+    >
+      <span
+        className=""
+        color="#262626"
+        size="24px"
+        style={Object {}}
+      >
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.7071 17.7071C12.3166 18.0976 11.6834 18.0976 11.2929 17.7071L4.92893 11.3431C4.53841 10.9526 4.53841 10.3195 4.92893 9.92893C5.31946 9.53841 5.95262 9.53841 6.34315 9.92893L12 15.5858L17.6569 9.92893C18.0474 9.53841 18.6805 9.53841 19.0711 9.92893C19.4616 10.3195 19.4616 10.9526 19.0711 11.3431L12.7071 17.7071ZM4 20C3.44772 20 3 19.5523 3 19C3 18.4477 3.44772 18 4 18L4 20ZM20 18C20.5523 18 21 18.4477 21 19C21 19.5523 20.5523 20 20 20V18ZM13 3V17H11V3H13ZM4 18L20 18V20L4 20L4 18Z"
+            fill="#262626"
+          />
+        </svg>
+      </span>
+    </i>
+    <p
+      className=""
+      color="secondary"
+      style={Object {}}
+    >
+      Button
+    </p>
+  </span>
+</button>
+`;
+
+exports[`Button Secondary with Icon props right align 1`] = `
+<button
+  className=""
+  color="secondary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <p
+      className=""
+      color="secondary"
+      style={Object {}}
+    >
+      Button
+    </p>
+    <i
+      style={
+        Object {
+          "height": "24px",
+          "marginLeft": "0.5em",
+        }
+      }
+    >
+      <span
+        className=""
+        color="#262626"
+        size="24px"
+        style={Object {}}
+      >
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.7071 17.7071C12.3166 18.0976 11.6834 18.0976 11.2929 17.7071L4.92893 11.3431C4.53841 10.9526 4.53841 10.3195 4.92893 9.92893C5.31946 9.53841 5.95262 9.53841 6.34315 9.92893L12 15.5858L17.6569 9.92893C18.0474 9.53841 18.6805 9.53841 19.0711 9.92893C19.4616 10.3195 19.4616 10.9526 19.0711 11.3431L12.7071 17.7071ZM4 20C3.44772 20 3 19.5523 3 19C3 18.4477 3.44772 18 4 18L4 20ZM20 18C20.5523 18 21 18.4477 21 19C21 19.5523 20.5523 20 20 20V18ZM13 3V17H11V3H13ZM4 18L20 18V20L4 20L4 18Z"
+            fill="#262626"
+          />
+        </svg>
+      </span>
+    </i>
+  </span>
+</button>
+`;
+
+exports[`Button Styled Button 1`] = `
+<button
+  className=""
+  color="primary"
+  style={
+    Object {
+      "backgroundColor": "#222",
+      "border": "1px solid #F2A922",
+      "color": "#fff",
+    }
+  }
+>
+  <span
+    className=""
+  >
+    <p
+      className=""
+      color="primary"
+      style={Object {}}
+    >
+      Button
+    </p>
+  </span>
+</button>
+`;
+
+exports[`Button Tertiary 1`] = `
+<button
+  className=""
+  color="tertiary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <p
+      className=""
+      color="tertiary"
+      style={Object {}}
+    >
+      Button
+    </p>
+  </span>
+</button>
+`;
+
+exports[`Button Tertiary with Icon props left align 1`] = `
+<button
+  className=""
+  color="tertiary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <i
+      style={
+        Object {
+          "height": "24px",
+          "marginRight": "0.5em",
+        }
+      }
+    >
+      <span
+        className=""
+        color="#FFFFFF"
+        size="24px"
+        style={Object {}}
+      >
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.7071 17.7071C12.3166 18.0976 11.6834 18.0976 11.2929 17.7071L4.92893 11.3431C4.53841 10.9526 4.53841 10.3195 4.92893 9.92893C5.31946 9.53841 5.95262 9.53841 6.34315 9.92893L12 15.5858L17.6569 9.92893C18.0474 9.53841 18.6805 9.53841 19.0711 9.92893C19.4616 10.3195 19.4616 10.9526 19.0711 11.3431L12.7071 17.7071ZM4 20C3.44772 20 3 19.5523 3 19C3 18.4477 3.44772 18 4 18L4 20ZM20 18C20.5523 18 21 18.4477 21 19C21 19.5523 20.5523 20 20 20V18ZM13 3V17H11V3H13ZM4 18L20 18V20L4 20L4 18Z"
+            fill="#262626"
+          />
+        </svg>
+      </span>
+    </i>
+    <p
+      className=""
+      color="tertiary"
+      style={Object {}}
+    >
+      Button
+    </p>
+  </span>
+</button>
+`;
+
+exports[`Button Tertiary with Icon props right align 1`] = `
+<button
+  className=""
+  color="tertiary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <p
+      className=""
+      color="tertiary"
+      style={Object {}}
+    >
+      Button
+    </p>
+    <i
+      style={
+        Object {
+          "height": "24px",
+          "marginLeft": "0.5em",
+        }
+      }
+    >
+      <span
+        className=""
+        color="#FFFFFF"
+        size="24px"
+        style={Object {}}
+      >
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.7071 17.7071C12.3166 18.0976 11.6834 18.0976 11.2929 17.7071L4.92893 11.3431C4.53841 10.9526 4.53841 10.3195 4.92893 9.92893C5.31946 9.53841 5.95262 9.53841 6.34315 9.92893L12 15.5858L17.6569 9.92893C18.0474 9.53841 18.6805 9.53841 19.0711 9.92893C19.4616 10.3195 19.4616 10.9526 19.0711 11.3431L12.7071 17.7071ZM4 20C3.44772 20 3 19.5523 3 19C3 18.4477 3.44772 18 4 18L4 20ZM20 18C20.5523 18 21 18.4477 21 19C21 19.5523 20.5523 20 20 20V18ZM13 3V17H11V3H13ZM4 18L20 18V20L4 20L4 18Z"
+            fill="#262626"
+          />
+        </svg>
+      </span>
+    </i>
+  </span>
+</button>
+`;
+
+exports[`Button only icon 1`] = `
+<button
+  className=""
+  color="primary"
+  style={Object {}}
+>
+  <span
+    className=""
+  >
+    <i
+      style={
+        Object {
+          "height": "24px",
+          "marginRight": "0.5em",
+        }
+      }
+    >
+      <span
+        className=""
+        size="24px"
+        style={Object {}}
+      >
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.7071 17.7071C12.3166 18.0976 11.6834 18.0976 11.2929 17.7071L4.92893 11.3431C4.53841 10.9526 4.53841 10.3195 4.92893 9.92893C5.31946 9.53841 5.95262 9.53841 6.34315 9.92893L12 15.5858L17.6569 9.92893C18.0474 9.53841 18.6805 9.53841 19.0711 9.92893C19.4616 10.3195 19.4616 10.9526 19.0711 11.3431L12.7071 17.7071ZM4 20C3.44772 20 3 19.5523 3 19C3 18.4477 3.44772 18 4 18L4 20ZM20 18C20.5523 18 21 18.4477 21 19C21 19.5523 20.5523 20 20 20V18ZM13 3V17H11V3H13ZM4 18L20 18V20L4 20L4 18Z"
+            fill="#262626"
+          />
+        </svg>
+      </span>
+    </i>
+    <p
+      className=""
+      color="primary"
+      style={Object {}}
+    >
+      Button
+    </p>
+  </span>
+</button>
+`;

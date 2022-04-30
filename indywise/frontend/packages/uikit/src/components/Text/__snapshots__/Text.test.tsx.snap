@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Body 1`] = `
+<p
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</p>
+`;
+
+exports[`Text Body bold 1`] = `
+<p
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</p>
+`;
+
+exports[`Text Body underline 1`] = `
+<p
+  className=""
+  style={
+    Object {
+      "text-decoration": "underline",
+    }
+  }
+>
+  Sample Text
+</p>
+`;
+
+exports[`Text H1 1`] = `
+<h1
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h1>
+`;
+
+exports[`Text H1 bold 1`] = `
+<h1
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h1>
+`;
+
+exports[`Text H1 underline 1`] = `
+<h1
+  className=""
+  style={
+    Object {
+      "text-decoration": "underline",
+    }
+  }
+>
+  Sample Text
+</h1>
+`;
+
+exports[`Text H2 1`] = `
+<h2
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h2>
+`;
+
+exports[`Text H2 bold 1`] = `
+<h2
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h2>
+`;
+
+exports[`Text H2 underline 1`] = `
+<h2
+  className=""
+  style={
+    Object {
+      "text-decoration": "underline",
+    }
+  }
+>
+  Sample Text
+</h2>
+`;
+
+exports[`Text H3 1`] = `
+<h3
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h3>
+`;
+
+exports[`Text H3 bold 1`] = `
+<h3
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h3>
+`;
+
+exports[`Text H3 underline 1`] = `
+<h3
+  className=""
+  style={
+    Object {
+      "text-decoration": "underline",
+    }
+  }
+>
+  Sample Text
+</h3>
+`;
+
+exports[`Text H4 1`] = `
+<h4
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h4>
+`;
+
+exports[`Text H4 bold 1`] = `
+<h4
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h4>
+`;
+
+exports[`Text H4 underline 1`] = `
+<h4
+  className=""
+  style={
+    Object {
+      "text-decoration": "underline",
+    }
+  }
+>
+  Sample Text
+</h4>
+`;
+
+exports[`Text HL 1`] = `
+<h1
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h1>
+`;
+
+exports[`Text HL bold 1`] = `
+<h1
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h1>
+`;
+
+exports[`Text HL underline 1`] = `
+<h1
+  className=""
+  style={
+    Object {
+      "text-decoration": "underline",
+    }
+  }
+>
+  Sample Text
+</h1>
+`;
+
+exports[`Text Paragraph 1`] = `
+<p
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</p>
+`;
+
+exports[`Text Paragraph bold 1`] = `
+<p
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</p>
+`;
+
+exports[`Text Paragraph underline 1`] = `
+<p
+  className=""
+  style={
+    Object {
+      "text-decoration": "underline",
+    }
+  }
+>
+  Sample Text
+</p>
+`;
+
+exports[`Text Size Color 1`] = `
+<p
+  className=""
+  size="24px"
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+>
+  Sample Text
+</p>
+`;
+
+exports[`Text Small 1`] = `
+<p
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</p>
+`;
+
+exports[`Text Small bold 1`] = `
+<p
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</p>
+`;
+
+exports[`Text Small underline 1`] = `
+<p
+  className=""
+  style={
+    Object {
+      "text-decoration": "underline",
+    }
+  }
+>
+  Sample Text
+</p>
+`;
+
+exports[`Text Styled 1`] = `
+<p
+  className=""
+  style={
+    Object {
+      "color": "#333",
+      "fontSize": "40px",
+    }
+  }
+>
+  Sample Text
+</p>
+`;
+
+exports[`Text Subtitile bold 1`] = `
+<h2
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h2>
+`;
+
+exports[`Text Subtitle 1`] = `
+<h2
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h2>
+`;
+
+exports[`Text Subtitle underline 1`] = `
+<h2
+  className=""
+  style={
+    Object {
+      "text-decoration": "underline",
+    }
+  }
+>
+  Sample Text
+</h2>
+`;
+
+exports[`Text Title 1`] = `
+<h1
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h1>
+`;
+
+exports[`Text Title bold 1`] = `
+<h1
+  className=""
+  style={Object {}}
+>
+  Sample Text
+</h1>
+`;
+
+exports[`Text Title underline 1`] = `
+<h1
+  className=""
+  style={
+    Object {
+      "text-decoration": "underline",
+    }
+  }
+>
+  Sample Text
+</h1>
+`;

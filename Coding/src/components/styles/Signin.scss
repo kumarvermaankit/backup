@@ -1,0 +1,277 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import "~bootstrap/scss/bootstrap";
+
+body{
+background-color: #c3aed6;
+font-family:  'Roboto Condensed', sans-serif;
+}
+
+.wrapper{
+	margin:  80px;
+	background-color: #ffd571;
+background-image: linear-gradient(160deg, #ffd571 20%, #dbec8f 80%);
+
+width: 500px;
+height:500px;
+padding: 50px;
+
+border-radius: 30px;
+size: 50px;
+
+display:inline-block;
+position: relative;
+left: 400px;
+
+}
+
+#signbutton{
+	color: white;
+	border-radius: 20px;
+	background-color: black;
+
+margin: 50px;
+
+width: 200px;
+height: 40px;
+border: none;
+display: inline-block;
+position: relative;
+left:40px;
+	
+}
+#signbutton:hover{
+	background-color: #eebb4d;
+	box-shadow: 5px 10px #050505;
+}
+
+#inputelement1:hover{
+	background-color: #eebb4d ;
+	box-shadow: 5px 10px #050505;
+}
+#inputelement2:hover{
+	background-color: #eebb4d;
+	box-shadow: 5px 10px #050505;
+}
+
+#inputelement1{
+
+
+	border-radius: 10px;
+   color:white;
+	background-color: darken($color: #000000, $amount: 0);
+	font-size: 20px;
+   }
+   
+   #inputelement2{
+	border-radius: 10px;
+	color:white;
+	 background-color: darken($color: #000000, $amount: 0);
+	 font-size: 20px;
+   }
+	  
+   
+   .header{
+   margin: 20px;
+   text-align: center;
+   
+   }
+   
+   
+.header:hover{
+	text-shadow: 5px 10px 5px  #050505;
+}
+
+   #signupoption{
+   color: black;
+   display: inline-block;
+   }
+   #signupoption:hover{
+	text-shadow: 5px 10px 5px  #050505;
+	text-decoration: black;
+   }
+   label:hover{
+	
+	text-shadow: 5px 10px 5px  #050505;
+   }
+
+  
+   
+.carousclass{
+
+	margin: 50px;
+	height:100px;
+	width: 1000px;
+	display: inline-block;
+	position: relative;
+
+	left:200px;
+}
+
+.carousitem{
+
+height: 100px;
+width:200px;
+
+}
+
+
+.card{
+margin:100px;
+ 
+display: inline-block;
+
+position: relative;
+
+left:500px;
+
+
+
+}
+
+
+#navbarclass{
+
+background-color: #686d76;
+height:80px;
+border: #000000;
+
+
+}
+
+#Navdrop{
+
+	margin:5px;
+	display: inline-block;
+	position: relative;
+top: 8px;
+
+}
+
+.navlog{
+	margin:5px;
+	display: inline-block;
+	position: relative;
+	top:10px;
+	left:1200px;
+
+}
+
+
+
+
+  
+  /* Tooltip text */
+.tooltiptext{
+	visibility: hidden;
+	width: 60px;
+	background-color:var(--color-text-primary);
+	color: #fff;
+	text-align: center;
+	
+	border-radius: 30px;
+   
+	/* Position the tooltip text - see examples below! */
+	position: absolute;
+	z-index: 1;
+	display: inline-block;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .Rcoins:hover .tooltiptext {
+	visibility: visible;
+  }
+
+  .Bcoins:hover .tooltiptext {
+	visibility: visible;
+  }
+
+
+.Rcoins{
+	margin:5px;
+	display: inline-block;
+	position: relative;
+	top:10px;
+	left:700px;
+
+}
+
+
+.Bcoins{
+	margin:5px;
+	display: inline-block;
+	position: relative;
+	top:10px;
+	left:700px;
+	
+}
+
+
+.NDI:hover{
+
+	background-color: #ffc1fa;
+
+}
+
+.navdrop{
+	background-color:#8675a9;
+	
+}
+
+
+
+
+
+
+// @import "bourbon";
+
+
+// body {
+// 	background: #eee !important;	
+// }
+
+// .wrapper {	
+// 	margin-top: 80px;
+//   margin-bottom: 80px;
+// }
+
+// .form-signin {
+//   max-width: 380px;
+//   padding: 15px 35px 45px;
+//   margin: 0 auto;
+//   background-color: #fff;
+//   border: 1px solid rgba(0,0,0,0.1);  
+
+//   .form-signin-heading,
+// 	.checkbox {
+// 	  margin-bottom: 30px;
+// 	}
+
+// 	.checkbox {
+// 	  font-weight: normal;
+// 	}
+
+// 	.form-control {
+// 	  position: relative;
+// 	  font-size: 16px;
+// 	  height: auto;
+// 	  padding: 10px;
+// 		@include box-sizing(border-box);
+
+// 		&:focus {
+// 		  z-index: 2;
+// 		}
+// 	}
+
+// 	input[type="text"] {
+// 	  margin-bottom: -1px;
+// 	  border-bottom-left-radius: 0;
+// 	  border-bottom-right-radius: 0;
+// 	}
+
+// 	input[type="password"] {
+// 	  margin-bottom: 20px;
+// 	  border-top-left-radius: 0;
+// 	  border-top-right-radius: 0;
+// 	}
+// }

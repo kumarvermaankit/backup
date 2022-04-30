@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkillTag IndyChartreuse 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <p
+    className=""
+    size="16px"
+  >
+    Name of SKill
+  </p>
+</div>
+`;
+
+exports[`SkillTag IndyJade 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <p
+    className=""
+    size="16px"
+  >
+    Name of SKill
+  </p>
+</div>
+`;
+
+exports[`SkillTag IndyKelly 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <p
+    className=""
+    size="16px"
+  >
+    Name of SKill
+  </p>
+</div>
+`;
+
+exports[`SkillTag IndyLavender 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <p
+    className=""
+    size="16px"
+  >
+    Name of SKill
+  </p>
+</div>
+`;
+
+exports[`SkillTag IndyMagenta 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <p
+    className=""
+    size="16px"
+  >
+    Name of SKill
+  </p>
+</div>
+`;
+
+exports[`SkillTag IndyRuby 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <p
+    className=""
+    size="16px"
+  >
+    Name of SKill
+  </p>
+</div>
+`;
+
+exports[`SkillTag Style 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <p
+    className=""
+    size="16px"
+  >
+    Name of SKill
+  </p>
+</div>
+`;
+
+exports[`SkillTag Style 2`] = `
+<div
+  className=""
+  onClick={[Function]}
+  style={Object {}}
+>
+  <p
+    className=""
+    size="16px"
+  >
+    Name of SKill
+  </p>
+</div>
+`;
+
+exports[`SkillTag only Skill 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <p
+    className=""
+    size="14px"
+  >
+    Name of SKill
+  </p>
+</div>
+`;

@@ -1,0 +1,74 @@
+name: Deploy to S3 Prod
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Labeler
+      uses: actions/labeler@2.2.0
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Get yarn cache directory path
+      id: yarn-cache-dir-path
+      run: echo "::set-output name=dir::$(yarn cache dir)"
+
+    - uses: actions/cache@v1
+      id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+      with:
+        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
+    - uses: actions/cache@v1
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - run: yarn
+    - run: yarn prestart
+    - run: yarn build:prod
+
+    - name: Extract branch name
+      shell: bash
+      run: |
+        echo "##[set-output name=branch;]$(echo ${GITHUB_HEAD_REF#refs/heads/})"
+        echo "##[set-output name=sha_short;]$(git rev-parse --short "$GITHUB_SHA")"
+      id: extract_branch
+    - name: Setup Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+    - name: Install AWS CLI
+      run: pip3 install awscli --upgrade --user
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_PROD }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_PROD }}
+        aws-region: 'ap-south-1'
+        mask-aws-account-id: true
+    - name: Push Contents to S3 (Web)
+      run: aws s3 sync build/web "s3://${{ secrets.AWS_S3_BUCKET_PROD }}" --exclude ".git/*" --exclude ".github/*" --acl public-read --follow-symlinks --delete
+    - name: Invalidate CloudFront Cache (Web)
+      run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DISTRIBUTION_PROD }} --paths "/*"
+
+    - name: Push Contents to S3 (Admin)
+      run: aws s3 sync build/admin "s3://${{ secrets.AWS_S3_BUCKET_ADMIN_PROD }}" --exclude ".git/*" --exclude ".github/*" --acl public-read --follow-symlinks --delete
+    - name: Invalidate CloudFront Cache (Admin)
+      run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DISTRIBUTION_ADMIN_PROD }} --paths "/*"

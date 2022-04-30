@@ -1,0 +1,96 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "slug": "interview-preparation-mba",
+      "title": "Interview Preparation for MBA Placements",
+      "description": "Brush Up your interview skills and get the last minute advantage to secure a Dream Pay Package with an exclusive preparation strategy with IndyWise",
+      "noOfSessions": "5",
+      "specialPrice": 4500,
+      "originalPrice": 6000,
+      "discount": "(25% Discount)",
+      "subscriptionPackageLink": "https://indywise.simplybook.it#book/service/31",
+      "service": 31,
+      "image": "mba",
+      "fullDescription": [
+        "Final placements is one of the most crucial components of doing an MBA. As an aspirant or someone in the first year, you may think that this is not for you but your placement prep starts from Day 1 as an MBA Student. It isn't a one day process. The two years that you spend as an MBA student determine how your final placements go. Everything that you do or don't do during this time will determine your future. Make these two years count. It's what your b-school provides you with and what you make out of it.",
+        "Brush Up your interview skills and get the last minute advantage to secure a Dream Pay Package with an exclusive preparation strategy with IndyWise."
+      ],
+      "whatIsInItForYou": [
+        "Personal interview sessions with the mentor working in the Industry/function/company of your choice",
+        "5 sessions in total, 1hr each",
+        "Access to your recorded sessions for later reference and self learning",
+        "Expert advice, industry insights and key information to sail through the interviews",
+        "Reference material and recommended content suggest by the mentor"
+      ],
+      "valueAddition": [
+        "Schedule the session timings as per your convenience",
+        "Not happy with a mentor, will get another one replaced as per your expectations",
+        "Get your skills verified by your mentor which will be your credential and you can mention it during your job/placement interviews"
+      ],
+      "background": "#F0E6F9",
+      "outline": "#66289D"
+    },
+    {
+      "id": "2",
+      "slug": "interview-preparation-engineering",
+      "title": "Interview Preparation for Engineering Placements",
+      "description": "IndyWise offers you a step-by-step guide of placement interview preparation and strategies taught by its top quality mentors coming from your dream companies. While we promise to dive deeply into your branch specific focused preparation and mock drills, this subscription package is a condensed version of these strategies – in one place",
+      "noOfSessions": "5",
+      "specialPrice": 4000,
+      "originalPrice": 5000,
+      "discount": "(20% Discount)",
+      "subscriptionPackageLink": "https://indywise.simplybook.it#book/service/32",
+      "service": 32,
+      "image": "engineering",
+      "fullDescription": [
+        "Campus placements season is beginning at almost all the colleges and each one of you wants to prepare to secure a Dream Placement at your Dream Company.",
+        "IndyWise offers you a step-by-step guide of placement interview preparation and strategies taught by its top quality mentors coming from your dream companies. While we promise to dive deeply into your branch specific focused preparation and mock drills, this subscription package is a condensed version of these strategies – in one place. So, come, let’s find out how to prepare for your dream campus placements with IndyWise."
+      ],
+      "whatIsInItForYou": [
+        "Personal interview sessions with the mentor working in the Industry/function/company of your choice",
+        "5 sessions in total, 1hr each",
+        "Access to your recorded sessions for later reference and self learning",
+        "Expert advice, industry insights and key information to sail through the interviews",
+        "Reference material and recommended content suggest by the mentor"
+      ],
+      "valueAddition": [
+        "Schedule the session timings as per your convenience",
+        "Not happy with a mentor, will get another one replaced as per your expectations",
+        "Get your skills verified by your mentor which will be your credential and you can mention it during your job/placement interviews"
+      ],
+      "background": "#F1DDEC",
+      "outline": "#842A71"
+    },
+    {
+      "id": "3",
+      "slug": "case-preparation",
+      "title": "Case Preparation",
+      "description": "Case interviews, a specialized form of and interview, require a specific skill set and preparation. This workshop is designed to equip the participants with the right toolkit and mental framework to approach the case interviews and achieve the students’ goal of working with their dream company",
+      "noOfSessions": "5",
+      "specialPrice": 4000,
+      "originalPrice": 5000,
+      "discount": "(20% Discount)",
+      "subscriptionPackageLink": "https://indywise.simplybook.it#book/service/33",
+      "service": 33,
+      "image": "case",
+      "fullDescription": [
+        "Case interviews, a specialized form of an interview, require a specific skill set and preparation. The best way to prepare is to learn the basics and practice with someone who has done it before. This workshop is designed to equip the participants with the right toolkit and mental framework to approach the case interviews and achieve the students’ goal of working with their dream company.",
+        "While case interviews form the most important component of evaluation for consulting companies (MBB, Big 4s and the like), preparing for one is critical even if you don’t aspire to be a consultant. Companies in other sectors, which are hiring for strategic roles such as eCommerce (Amazon, Flipkart), Marketing (HUL, ITC, Marico), General Management (Aditya Birla Group, Tata, GE) and Finance (JP Morgan, Goldman Sachs, HDFC Bank) employ similar evaluation strategy in one way or the other. Preparing for case interviews gives you the right toolkit and mental framework to succeed in all of them."
+      ],
+      "whatIsInItForYou": [
+        "Basics of case interview - what interviewer looks for",
+        "Case interview - what you need to know",
+        "Basics of Interview - What Interviewer looks for: What, why, how; Skills tested/ required; Format/ types of cases",
+        "How to solve cases: Approach and Framework, Guesstimates - a special type of case, Key things to keep in mind, Typical mistakes to avoid",
+        "Live Case Practice"
+      ],
+      "valueAddition": [
+        "Who will teach you - top mentors working in Fortune 100 companies and coming from India’s top B Schools (IIFT, IITB etc.) with over 25 years of experience between them including with BIG 4s and large conglomerates",
+        "Get your skills verified by your mentor which will be your credential and you can mention it during your job/placement interviews"
+      ],
+      "background": "#F0E6F9",
+      "outline": "#66289D"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+
+
+// const router= require("express").Router();
+// const express=require("express");
+// const app=express();
+// const passport = require("passport");
+// const passportLocalMongoose=require("passport-local-mongoose");
+
+
+
+// app.use(passport.initialize());
+// app.use(passport.session());
+
+// const User=require("./models/UserProfile.models");
+
+// passport.use(User.createStrategy());
+// passport.serializeUser(User.serializeUser());
+// passport.deserializeUser(User.deserializeUser());
+
+
+
+
+
+// router.get('/',(req,res)=>{
+
+//     User.find()
+//     .then(users=>res.json(users))
+//     .catch(err=>(res.status(400).json("Err!"+err)));
+
+// })
+
+// router.post('/add', function(req, res) { 
+      
+
+
+// //     Users=new User({name:req.body.name, username : req.body.username,ActiveStatus:false,RealCoins:0,BonusCoins:0,password:req.body.password}); 
+  
+// //           User.register(Users, req.body.password, function(err, user) { 
+// //             if (err) {   
+// //               res.json({success:false, message:"Your account could not be saved. Error: ", err})   
+            
+// //             }else{ 
+// //               // res.json({success: true, message: "Your account has  been saved"})   
+// //               passport.authenticate("local")(req,res,function(err){
+// // if(err){
+// //   res.json({success:false,message:"Authentication Error"+err});
+// // }
+// // else{
+// //   res.json({success:true,message:"Authentication Successful"})
+// // }
+                
+          
+// //               });
+          
+              
+//             } 
+//           }); 
+// }); 
+
+
+
+
+
+
+// // router.route("/add").post((req,res)=>{
+
+// //     Users=new UserProfile({name:req.body.name, username : req.body.username}); 
+      
+// //               User.register(Users, req.body.password, function(err, user) { 
+// //                 if (err) { 
+// //                      res.json({success:false, message:"Your account could not be saved. Error: ", err}) ; 
+                  
+// //                 }else{ 
+// //                   res.json({success: true, message: "Your account has been saved"});
+               
+// //                 } 
+// //               })
+
+
+            
+
+
+// //  const username=req.body.username;
+// //  const name=req.body.name;
+// //  const password=req.body.password;
+ 
+// //  const newUserP= new UserProfile({
+// // username:username,
+// // name:name,
+// // password:password,
+// // RealCoins:0,
+// // BonusCoins:0
+
+
+// //  })
+
+// // newUser.save()
+// // .then(res=> res.json("User is Saved"))
+// // .catch(err=>res.json(err));
+
+// // })
+            
+
+// module.exports=router;
+

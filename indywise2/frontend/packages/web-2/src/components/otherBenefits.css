@@ -1,0 +1,82 @@
+.timeline{ 
+    position:relative;
+    margin:12vh auto 6vh auto;
+    box-sizing:border-box;
+}
+
+.timeline:before{
+  content:'';
+  position:absolute;
+  left:50%;
+  width:2px;
+  height:90%;
+  background:#c5c5c5;
+}
+
+.timeline ul{
+  padding:0;
+  margin:0;
+}
+
+.timeline ul li{
+  list-style:none;
+  position:relative;
+  width:50%;
+  padding:1vh 5vw;
+  box-sizing:border-box;
+}
+
+.timeline ul li:nth-child(odd){
+  float:left;
+  clear:both;
+}
+
+.timeline ul li:nth-child(even){
+  float:right;
+  clear:both;
+}
+
+.content{
+  padding-bottom:5vh;
+  display: flex;
+}
+
+.timeline ul li:nth-child(even) .content
+{
+  flex-flow: row-reverse;
+}
+
+.timeline ul li:nth-child(even) .content .icon-div
+{
+  margin-right: 5vw;
+}
+
+.timeline ul li:nth-child(odd) .content .icon-div
+{
+  margin-left: 5vw;
+}
+
+@media only screen and (max-width: 530px) {
+  .timeline{
+    margin: 4em auto;
+  }
+
+  .timeline ul li:nth-child(even) .content .icon-div
+  {
+    margin-right: 1em;
+  }
+
+  .timeline ul li:nth-child(odd) .content .icon-div
+  {
+    margin-left: 1em;
+  }
+
+  .timeline ul li{
+    width: auto;
+    padding: 1em;
+  }
+
+  .timeline:before{
+    display: none;
+  }
+}

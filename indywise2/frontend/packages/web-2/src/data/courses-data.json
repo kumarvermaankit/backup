@@ -1,0 +1,103 @@
+[
+  {
+    "title": "Requirements Engineering: Secure Software",
+    "creator": "University of Colorado",
+    "skills": [
+      "Software Development",
+      "Requirements Elicitation",
+      "Requirements Analysis",
+      "Requirements Engineering"
+    ],
+    "price": 0,
+    "duration": "96h",
+    "reviews": [
+      {
+        "name": "Tanmay Anand",
+        "rating": 9.2
+      }
+    ],
+    "service": "Coursera",
+    "description": "Description: This specialization is intended for software engineers, development and product managers, testers, QA analysts, product analysts, tech writers, and security engineers. Even if you have experience in the requirements realm, this course will expand your knowledge to include new viewpoints, development styles, techniques and tools.",
+    "courseLink": "https://www.coursera.org/specializations/requirements-engineering-secure-software",
+    "category": "Engineering",
+    "avatar": ""
+  },
+  {
+    "title": "Software Product Management Specialization",
+    "creator": "Kenny Wong",
+    "skills": [
+      "Product Management",
+      "Scrum",
+      "Agile",
+      "Project Management",
+      "Software Project Management"
+    ],
+    "price": 0,
+    "duration": "74h",
+    "reviews": [
+      {
+        "name": "Tanmay Anand",
+        "rating": 9.2
+      }
+    ],
+    "service": "Coursera",
+    "description": "Create Better Software using Agile Practices. Master Agile development and effective interactions to drive the making of great software products",
+    "courseLink": "https://www.coursera.org/specializations/product-management",
+    "category": "Engineering",
+    "avatar": ""
+  },
+  {
+    "title": "Next.js + React.js tutorial",
+    "creator": "LearnCode.academy",
+    "skills": ["React JS", "Next JS", "HTML", "CSS"],
+    "price": 0,
+    "duration": "14mins",
+    "reviews": [
+      {
+        "name": "Tanmay Anand",
+        "rating": 9.2
+      }
+    ],
+    "service": "Youtube",
+    "description": "Next.js should be your go-to for any React.js work these days.  If you're using Create React App...STOP! You're missing out on the joys of Next.js. This tutorial covers Next.js for building React.js apps, websites, blogs.  Almost web development you do with React will benefit from Next.js.",
+    "courseLink": "https://www.youtube.com/watch?v=T3iLrmO8TmY.",
+    "category": "Web Development",
+    "avatar": ""
+  },
+  {
+    "title": "Responsive Design Tutorial",
+    "creator": "LearnCode.academy",
+    "skills": ["HTML", "CSS"],
+    "price": 0,
+    "duration": "18mins",
+    "reviews": [
+      {
+        "name": "Tanmay Anand",
+        "rating": 9.2
+      }
+    ],
+    "service": "Youtube",
+    "description": "Responsive Design makes a website look amazing on any device. Using css media queries, good flexbox/grid layouts, srcset, and html5 picture tags, we can convert our website into a fully responsive site. Learn how its done.",
+    "courseLink": "https://www.youtube.com/watch?v=fgOO9YUFlGI",
+    "category": "Web Development",
+    "avatar": ""
+  },
+  {
+    "title": "Complete Guide to Build IOT Things",
+    "creator": "Junaid Ahmed",
+    "skills": ["Arduino", "IOT", "Sensors"],
+    "price": 0,
+    "duration": "5h",
+    "reviews": [
+      {
+        "name": "Tanmay Anand",
+        "rating": 9.2
+      }
+    ],
+    "service": "Udemy",
+    "description": "Build IOT products using Arduino, NodeMCU,ESP8266, IOT Platforms, Sensors, Displays, Keypads,Relays, PCB's,Casing & more",
+    "courseLink": "https://www.udemy.com/course/complete-guide-to-build-iot-things-from-scratch-to-market/?gclid=CjwKCAjwi9-HBhACEiwAPzUhHEIBu2gDu_Tx3RnOQF_9f0r59PIcUdoSGRt4seZpOmwVhw8CQY_TuRoChycQAvD_BwE&matchtype=e&utm_campaign=LongTail_la.EN_cc.INDIA&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_78279310279_._ad_387461248223_._kw_internet+of+things+class_._de_c_._dm__._pl__._ti_kwd-436951660505_._li_9062122_._pd__._",
+    "category": "IOT",
+    "avatar": ""
+  }
+]

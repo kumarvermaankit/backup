@@ -1,0 +1,21 @@
+.react-geocoder input {
+  width: 600px;
+  height: 30px;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+
+.react-geocoder-item {
+  background-color: white;
+  width: 600px;
+  cursor: pointer;
+  margin-left: 12px;
+  border-bottom: 0.1px solid black;
+  padding: 4px;
+}
+.react-geocoder-item:hover {
+  background-color: #ddd;
+}
+.mapboxgl-map {
+  width: 55%;
+}

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bubble Color 1`] = `
+<div
+  className=""
+  color="#222"
+  style={Object {}}
+/>
+`;
+
+exports[`Bubble Size 1`] = `
+<div
+  className=""
+  size="100px"
+  style={Object {}}
+/>
+`;
+
+exports[`Bubble Style 1`] = `
+<div
+  className=""
+  style={Object {}}
+/>
+`;

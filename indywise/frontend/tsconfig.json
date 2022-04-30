@@ -1,0 +1,54 @@
+{
+  "exclude": [
+    "node_modules",
+    "dist",
+    "lib",
+    "__tests__",
+    "**/*.test*",
+    "**/*.spec*"
+  ],
+  "files": [],
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "allowJs": true,
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "rootDir": ".",
+    "outDir": "lib",
+    "downlevelIteration": true,
+    "strict": true,
+    "removeComments": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@indywise/*": ["packages/*/src"]
+    },
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
+  },
+  "references": [
+    {
+      "path": "packages/uikit"
+    },
+    {
+      "path": "packages/web-2"
+    },
+    {
+      "path": "packages/admin"
+    },
+    {
+      "path": "packages/core"
+    }
+  ]
+}

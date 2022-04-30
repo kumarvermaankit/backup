@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Grid should render correctly 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      Left Children
+    </div>
+    <div
+      className=""
+      style={Object {}}
+    >
+      Right Children
+    </div>
+  </div>
+</div>
+`;

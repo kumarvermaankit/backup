@@ -1,0 +1,13 @@
+.ordersdiv{
+    background-color:white ;
+    width:1200px;
+    height:550px;
+    position: relative;
+    top:0px;
+    left:200px;
+}
+.MO_header{
+    margin-left: 200px;
+    position: relative;
+    bottom: 30px;
+}

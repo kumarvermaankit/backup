@@ -1,0 +1,236 @@
+
+/* input[type='file'] {
+    color: transparent;
+  } */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+
+
+  html{
+    width: 1000px;
+    height: auto;
+	font-family: 'Shadows Into Light', cursive;
+    
+}
+
+body{
+	font-family: 'Indie Flower', cursive;
+
+}
+
+ /* Hide scrollbar for Chrome, Safari and Opera */
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+
+
+  .afdiv{
+	  width:100%;
+	
+	  
+  }
+
+  input[type="file"] {
+
+	opacity: 0;
+    width: 0;
+	height:0;
+	}
+.custom-file-upload {
+	height: 60px; 
+
+	position:relative;
+    display: inline-block; 
+	/* position:relative;
+    display: inline-block; */
+    /* cursor: pointer;
+	
+	/* padding:5px;
+	
+	background-color: red; */
+
+	/* background:url(http://www.a-yachtcharter.com/search-fleet/webaccess/assets/img/uploadIcon.png); */
+	/* background-image: linear-gradient(to right,#F26FC9, #8772EF); */
+	
+	/* width:15%; */
+	/* border:1px dashed #ff5b57 !important; */
+	/* margin-left:20px;
+	margin-right:20px;
+	margin-top:10px;
+	text-align:center; */
+}
+
+img{
+    margin:20px;
+    width:310px;
+    height:300px;
+}
+
+/* .inputdiv{
+	
+	
+    
+} */
+
+.input-file-container{
+	margin-top:0px;
+	margin-left:0px;
+	width:0px;
+}
+
+.mid-section{
+	background-color: #202124;
+	height: 600px;
+	align-items: center;
+	display: inline-block;
+	position: relative;
+	top:100px;
+    color:white;
+	width:100%
+}
+.create {
+	display:inline-block;
+	  position:relative;  
+	  top:40px;
+	
+}
+
+
+h1{
+	font-family: 'Oi', cursive;
+	letter-spacing: 2px;
+}
+
+.headerpayment{
+	margin:10px;
+	display: inline-block;
+	position: relative;
+	left:320px
+}
+
+b:hover{
+
+	text-shadow: 10px 20px 10px  #050505;
+}
+
+
+
+.custom-file-upload custom-file-upload:hover{
+	text-shadow: 0px 0px 0px  #050505;
+}
+
+.drop-down{
+	min-width: 180px;
+    min-height: 55px;
+    width:initial;
+    height:initial;
+    display:inline-block;
+    margin:10px;
+    position: relative;
+	z-index: 5;
+}
+
+.AC{
+	width: auto;
+	height: auto;
+	color: white;
+	background-color: black;
+
+	margin-left: 15px;
+	
+
+}
+
+.AC:hover{
+	box-shadow: 0.6px 0.6px 3px 3px white;
+}
+
+.acCode{
+	width: auto;
+	height: auto;
+	color: white;
+	background-color: black;
+	
+	margin-left: 15px;
+}
+
+.acCode:hover{
+	box-shadow: 0.6px 0.6px 3px 3px white;
+}
+	    
+.send-button{
+	position:relative;
+	top:800px;
+	left:590px;
+	width:300px;
+	height:50px;
+	z-index:5;
+	padding:0;
+	font-size:30px;
+	margin-bottom:100px;
+}
+
+.close_btn{
+	display: inline-block;
+	position: relative;
+	bottom:165px;
+	left:350px;
+	border:none;
+}
+
+.close_btn:hover{
+	 box-shadow:0.5px 0.5px 0.5px 0.5px white;  
+	
+	
+}
+
+@media screen and (max-width:1000px) {
+
+.input-file-container{
+	margin-top: 30px;
+	margin-left: 300px;
+}	
+
+.custom-file-upload{
+	width:50%;
+	padding-top:5px;
+	padding-bottom: 5px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+
+}
+
+.AC{
+	width: 5%;
+	height:25px;
+	margin-top: 800px;
+
+}
+.ACCode{
+	width: 5%;
+	height:25px;
+	margin-top: 10px;
+
+}
+
+
+
+.drop-down{
+	display: block;
+	width:30px;
+	margin: 20px;
+	margin-left: 150px;
+}
+.mid-section{
+	width:800px;
+}
+}
+
+.no_of_images{
+	background-color: white;
+	width: 200px;
+	height:40px;
+	display: inline-block;
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="293" height="117" viewBox="0 0 293 117">
+    <defs>
+        <style>
+            .cls-1{fill:#0c3559;stroke:#0c3559;stroke-width:2px;font-size:55px;font-family:Comfortaa-Bold,Comfortaa;font-weight:700}
+        </style>
+    </defs>
+    <g id="Indywise_Logo" transform="translate(39.207 1.316)">
+        <g id="Layer_1" transform="translate(-37.207 -1.316)">
+            <g id="Logo1">
+                <text id="Indy" class="cls-1" transform="translate(0 57.211)">
+                    <tspan x="0" y="0">Indy</tspan>
+                </text>
+                <text id="ise" class="cls-1" transform="translate(208 56.738)">
+                    <tspan x="0" y="0">ise</tspan>
+                </text>
+                <g id="Layer_2" transform="translate(131.359)">
+                    <g id="Layer_1-2">
+                        <g id="Logo_3">
+                            <path id="Path_742" fill="#f2a922" d="M35.985 0C15.821 0 .28 17.394 0 36.278-.234 51.8 9.868 66.258 25.183 71.937a.994.994 0 0 0 1.022-.208 1.013 1.013 0 0 0 .284-1.011Q20.8 49.434 15.1 28.146a1.01 1.01 0 0 1 .539-1.227.994.994 0 0 1 1.271.4l13.443 20.337a.994.994 0 0 0 1.789-.242l2.894-8.757a1 1 0 0 1 1.91 0l2.9 8.777a.994.994 0 0 0 1.785.252L55.1 27.71a.994.994 0 0 1 1.263-.375 1.01 1.01 0 0 1 .537 1.211L45.482 70.713a1.013 1.013 0 0 0 .28 1.019.994.994 0 0 0 1.029.205C62.107 66.258 72.209 51.8 71.974 36.278 71.7 17.394 56.16 0 35.985 0zm0 31.24a9.07 9.07 0 1 1 9-9.07 9.068 9.068 0 0 1-9 9.07z" transform="translate(.008)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <text id="Success_Guaranteed." fill="#0c3559" font-family="Roboto-Regular, Roboto" font-size="28px" transform="translate(13 109)">
+                <tspan x="0" y="0">Success Guaranteed.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

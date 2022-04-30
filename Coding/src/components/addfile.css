@@ -1,0 +1,38 @@
+
+/* input[type='file'] {
+    color: transparent;
+  } */
+
+  input[type="file"] {
+	display: inline-block;
+	opacity: 0;
+	position: absolute;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 67px;
+	width: 85%;
+	z-index: 99;
+	margin-top: 10px;
+	cursor:pointer;
+}
+.custom-file-upload {
+	position:relative;
+    display: inline-block;
+    cursor: pointer;
+	padding-top:15px;
+	padding-bottom:15px;
+	background:url(http://www.a-yachtcharter.com/search-fleet/webaccess/assets/img/uploadIcon.png) #3e978b center center no-repeat;
+	width:91%;
+	border:1px dashed #ff5b57 !important;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:10px;
+	text-align:center;
+}
+
+img{
+    margin:20px;
+    width:310px;
+    height:300px;
+}

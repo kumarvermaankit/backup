@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Kyc List Item Wrapper should render correctly 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <ul>
+      Wrap Kyc List With KycListWrapper 
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,30 @@
+# Add 'repo' label to any root file changes
+repo:
+    - ./*
+
+# Add 'frontend/uikit' label to any change within the 'uikit' package
+frontend/uikit:
+    - packages/uikit/*
+    - packages/uikit/**/*
+
+# Add 'frontend/admin' label to any change within the 'admin' package
+frontend/admin:
+    - packages/admin/*
+    - packages/admin/**/*
+
+# Add 'core' label to any change within the 'core' package
+core:
+    - packages/core/*
+    - packages/core/**/*
+
+# Add 'test/unit' label to any change to *.test.tsx files within the source dir
+test/unit:
+    - packages/**/src/**/*.test.tsx
+
+# Add 'test/cypress' label to any change to cypress files within the source dir
+test/cypress:
+    - packages/**/cypress/**/*
+
+# Add 'source' label to any change to src files within the source dir EXCEPT for the docs sub-folder
+source:
+    - packages/**/src/**/*

@@ -1,0 +1,11 @@
+input{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+textarea{
+  margin: 20px;
+}
+button{
+  margin: 20px;
+}

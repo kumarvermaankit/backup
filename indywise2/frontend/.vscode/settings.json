@@ -1,0 +1,15 @@
+{
+    "cucumberautocomplete.steps": [
+        "packages/**/cypress/support/step_definitions/**/*.ts"
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.syncfeatures": "cypress/integration/*features?",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "cSpell.words": [
+        "Bengaluru"
+    ],
+    "god.tsconfig": "./tsconfig.json"
+}

@@ -1,0 +1,71 @@
+.btn{
+    
+    background-image: none;
+    background: none;
+    border: none;
+    outline: none;
+    height: 150px;
+    width:120px;
+    font-size: 60px;
+    display: inline-block;
+    position: relative;
+    bottom:10px;
+    color: black;
+    
+}
+.btn:hover{
+    background-image: none;
+    background: none;
+    color: white;
+    border: none;
+}       
+
+
+
+.carddiv{
+    width:150;
+     height:180;
+    display: inline-block;
+    /* position: relative; */
+    margin-top: 200px;
+    margin-left:    10px;
+    
+    color:Black;
+    background: linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.carddiv:hover{
+    /* background-color: #99a8b2;
+    box-shadow: 20px 40px 20px #050505;
+    display: inline-block;
+    position: relative;
+    right:1px; */
+    background-position: left bottom;
+} 
+
+/* .carddiv:active{
+    background-color: #999999 !important;
+color: #FFFFFF !important;
+}
+
+.carddiv:visited{
+    color: #663399;
+} */
+
+
+.idiv{
+    background-color: #e7e6e1;
+    font-size: 17px;
+  
+    color:black;
+    display: inline-block;
+    position: relative;
+    right: 50px;
+    box-shadow: 10px 20px 10px #050505 ;
+    bottom:170px;
+}
+
+

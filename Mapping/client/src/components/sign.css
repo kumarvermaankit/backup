@@ -1,0 +1,12 @@
+label {
+    display: flex;
+    margin:3px;
+  }
+  label p {
+    
+    margin:23px;
+  }
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }

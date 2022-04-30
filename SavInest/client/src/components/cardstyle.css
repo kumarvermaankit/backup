@@ -1,0 +1,303 @@
+body {
+  overflow: hidden;
+}
+
+.maincard {
+  display: block;
+  background-color: #011120;
+  margin-top: 30px;
+  width: 900px;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+  animation-duration: 1.5s;
+  animation-name: appear;
+  overflow-y: auto;
+  overflow-x: auto;
+  position: relative;
+  margin: 10px;
+  opacity: 0.8px;
+  left: 0px;
+}
+
+.carddiv {
+  margin-top: 150px;
+}
+
+.btn2 {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.delete_btn {
+  width: 200px;
+  height: 100px;
+  margin-top: 200px;
+}
+
+.itemexpense {
+  display: flex;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.current_limit {
+  position: absolute;
+  left: 750px;
+}
+.total {
+  padding-left: 5px;
+}
+
+.autowrite {
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: start;
+}
+
+.frame {
+  transform: scale(0.95);
+}
+
+.maincard2 {
+  display: block;
+  background-color: #011120;
+  margin-top: 30px;
+  width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 20px;
+  animation-duration: 1.5s;
+  animation-name: appear3;
+  overflow-y: auto;
+  overflow-x: auto;
+  position: relative;
+  margin: 10px;
+  opacity: 0.8px;
+  left: 0;
+}
+
+@keyframes appear {
+  from {
+    left: -30px;
+    opacity: 0;
+  }
+  to {
+    left: 0px;
+    opacity: 0.8px;
+  }
+}
+
+@keyframes appear3 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8px;
+  }
+}
+
+.smallcard {
+  display: block;
+  margin: 10px;
+  margin-left: 880px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color: white;
+  padding-top: 30px;
+  font-size: 25px;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  bottom: 500px;
+  opacity: 0.8px;
+  animation-duration: 1.5s;
+  animation-name: appear2;
+  right: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: ease-in-out 0.6s;
+}
+
+.smallcard:hover {
+  transform: scale(1.07);
+}
+
+.smallcard2 {
+  display: block;
+  margin: 10px;
+  margin-left: 780px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color: white;
+  padding-top: 30px;
+  font-size: 30px;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  bottom: 500px;
+  opacity: 0.8px;
+  animation-duration: 1.5s;
+  animation-name: appear4;
+  right: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all ease-in-out 0.6s;
+}
+
+.smallcard2:hover {
+  transform: scale(1.01);
+}
+
+.container {
+  margin-top: 20px;
+}
+
+@keyframes appear2 {
+  from {
+    opacity: 0;
+    right: 0px;
+  }
+  to {
+    opacity: 0.8;
+    right: 20px;
+  }
+}
+
+@keyframes appear4 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+.carousel-item img {
+  padding: 11px;
+  padding-top: 45px;
+}
+
+.carousel-control-next-icon {
+  color: black;
+}
+
+.maincard {
+  margin-left: -149px;
+}
+.maincard2 {
+  margin-left: -149px;
+}
+.expense_input {
+  display: block;
+  position: relative;
+  padding: 5px;
+  top: 30px;
+  left: 20px;
+  bottom: 10px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.pie {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.my_pie {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  right: 30px;
+  color: white;
+}
+
+.login-container {
+  margin-top: 200px;
+}
+
+.pie_info {
+  margin-top: 130px;
+  margin-left: 30px;
+}
+
+.pie_info2 {
+  margin-top: 150px;
+  position: relative;
+  right: 100px;
+}
+.pie_info2_new {
+  margin-top: 150px;
+  position: relative;
+  right: 83px;
+}
+
+.expensediv {
+  position: relative;
+  left: 230px;
+  bottom: 50px;
+}
+
+.add {
+  width: 200px;
+  height: 50px;
+  animation-name: addbtn;
+  animation-duration: 2s;
+
+  background: lightblue;
+  position: relative;
+  top: 25px;
+  right: 180px;
+  transition: all ease-in-out 0.5s;
+  border-radius: 10px;
+}
+
+.add:hover {
+  transform: scale(1.07);
+}
+
+@keyframes addbtn {
+  from {
+    background-position: none;
+  }
+  to {
+    background-position: left;
+  }
+}
+
+.limit_div {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.ilimit {
+  padding-left: 10px;
+  width: 200px;
+  position: absolute;
+  left: 290px;
+}
+
+.iadd {
+  padding-left: 10px;
+  width: 350px;
+  height: 40px;
+  position: absolute;
+  left: 100px;
+  margin-bottom: 10px;
+}
+
+.expense_label {
+  font-size: 25px;
+  position: relative;
+  right: 130px;
+  color: white;
+}
+
+.frame {
+  font-size: 60px;
+  position: relative;
+  top: 200px;
+}

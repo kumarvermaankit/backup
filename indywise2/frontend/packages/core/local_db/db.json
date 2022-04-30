@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "mobile_number_verified": true,
+      "last_name": "Sharma",
+      "first_name": "Shikhar",
+      "is_active": true,
+      "ID": "1a52a27f-3394-4081-aaed-37c7c6fb390e",
+      "email": "shikhar.sharma@indywise.com",
+      "mobile_number": "8826640045",
+      "email_verified": true
+    }
+  ],
+  "avatar": [
+    {
+      "avatar_url": "https://dev-image-images.s3-ap-south-1.amazonaws.com/1/avatar/5178fa04-470a-438f-a7d1-e41b71e3d716.jpeg"
+    },
+    {
+      "avatar_url": "https://dev-image-images.s3-ap-south-1.amazonaws.com/1/avatar/5178fa04-470a-438f-a7d1-e41b71e3d716.jpeg"
+    },
+    {
+      "avatar_url": "https://dev-image-images.s3-ap-south-1.amazonaws.com/1/avatar/5178fa04-470a-438f-a7d1-e41b71e3d716.jpeg"
+    },
+    {
+      "avatar_url": "https://dev-image-images.s3-ap-south-1.amazonaws.com/1/avatar/5178fa04-470a-438f-a7d1-e41b71e3d716.jpeg"
+    }
+  ]
+}

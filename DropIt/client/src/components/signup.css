@@ -1,0 +1,41 @@
+body {
+  background: #fff;
+}
+.signupPage {
+  width: auto;
+  height: 460px;
+  font-family: "Open Sans", sans-serif;
+}
+.signupContainer {
+  border: 1px solid #687280;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #9ca3af;
+  align-items: center;
+  background: #fff;
+  width: 413px;
+  height: 445px;
+  margin: 100px auto;
+}
+.signupContainer h1 {
+  margin: 25px 50px 20px 50px;
+}
+.signupContainer div {
+  margin-left: 50px;
+}
+#password {
+  margin-top: 10px;
+}
+.signUp p {
+  margin: 0px 0px 0px 41px;
+}
+.signUp a {
+  text-decoration: none;
+}
+.verifyPass{
+  color:#b800008f;
+  float: right;
+  height: 10px;
+  font-size: 12px;
+  margin: 0px 50px;
+  /* font-weight: bolder; */
+}

@@ -1,0 +1,26 @@
+{
+  "data": {
+    "univ": [
+      "MIT",
+      "LMNV",
+      "UCLA",
+      "University of Bristol",
+      "ICL",
+      "UCL",
+      "SNU",
+      "TUM"
+    ],
+    "course": [
+      "BSC",
+      "BBA",
+      "BCA",
+      "MCA",
+      "MPhil",
+      "DPhil",
+      "MSC",
+      "BCOM",
+      "MCOM"
+    ],
+    "spec": ["CS", "ECO", "HIST", "AERO", "NANO", "AI/ML"]
+  }
+}
